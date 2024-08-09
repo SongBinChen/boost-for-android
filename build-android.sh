@@ -596,7 +596,7 @@ echo "Building boost for android for $ARCH"
       echo "ICONV and ICU already downloaded"
     else
       echo "Downloading libiconv-libicu-android repo"
-      git clone --depth=1 https://github.com/pelya/libiconv-libicu-android.git || exit 1
+      git clone --depth=1 https://github.com/SongBinChen/libiconv-libicu-android.git || exit 1
     fi
     if [ -e libiconv-libicu-android/$ARCH/libicuuc.a ]; then
       echo "ICONV and ICU already compiled"
